@@ -18,6 +18,7 @@ from .django_compat import is_django_unittest  # noqa
 from .fixtures import django_db_setup  # noqa
 from .fixtures import django_db_use_migrations  # noqa
 from .fixtures import django_db_keepdb  # noqa
+from .fixtures import django_db_createdb  # noqa
 from .fixtures import django_db_modify_db_settings  # noqa
 from .fixtures import django_db_modify_db_settings_xdist_suffix  # noqa
 from .fixtures import _live_server_helper  # noqa
